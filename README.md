@@ -33,14 +33,31 @@ Visit this [link][original] for manual install
 
 # Usage
 
+- Create Project and install dependencies
 
 ```shell
   electron-react-redux-boilerplate <project-name>
 
   cd <project-name>
 
-  npm install
+  npm install (or) yarn install
 ```
+
+- Have two terminals opened. One for Webpack build. Another for Electron
+
+```shell
+  terminal_1> yarn webpack:dev (or) npm run webpack:dev
+  terminal_2> yarn start (or) npm run start
+```
+
+- Devtron is included. Run the following in application's DevTools console
+
+```javascript
+  require('devtron').install()
+```
+
+
+
 
 # Note
 
