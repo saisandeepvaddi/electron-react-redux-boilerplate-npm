@@ -1,0 +1,34 @@
+{
+  "name": "electron-react-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "Electron boilerplate with React Redux electron-settings preconfigured",
+  "main": "index.js",
+  "bin": {
+    "electron-react-redux-boilerplate": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saisandeepvaddi/electron-react-redux-boilerplate-npm.git"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "redux",
+    "boilerplate",
+    "electron-settings"
+  ],
+  "author": "Sai Sandeep Vaddi <saisandeepvaddi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saisandeepvaddi/electron-react-redux-boilerplate-npm/issues"
+  },
+  "homepage": "https://github.com/saisandeepvaddi/electron-react-redux-boilerplate-npm#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "np": "^2.16.0",
+    "shelljs": "^0.7.8"
+  }
+}
