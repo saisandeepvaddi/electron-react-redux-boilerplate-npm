@@ -28,7 +28,6 @@
   "homepage": "https://github.com/saisandeepvaddi/electron-react-redux-boilerplate-npm#readme",
   "dependencies": {
     "chalk": "^2.0.1",
-    "np": "^2.16.0",
     "shelljs": "^0.7.8"
   }
 }
